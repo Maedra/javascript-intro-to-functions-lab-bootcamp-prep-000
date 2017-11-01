@@ -20,6 +20,12 @@ function sayHiToGrandma(string) {
   } else {
     if (string.toLowerCase() === string){
       return "I can\'t hear you!"
-    }
+    } 
+  }
+
+  var password = string.toLowerCase()
+
+  if (password === "i love you, grandma."){
+    return "I love you, too."
   }
 }
